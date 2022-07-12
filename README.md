@@ -11,7 +11,7 @@ This can be mitigated by reducing the accuracy. So a small windowsize and a big 
 This means that the algorithm must be tuned with these hyperparameters.
 
 Next info and code will follow soon
-# -*- coding: utf-8 -*-
+
 """
 Created on Tue Jul 12 10:19:20 2022
 
