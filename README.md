@@ -1,3 +1,8 @@
+INSTALLATION:
+copy fad_v02.py to your anaconda3 ./Anaconda3/Lib directory
+copy Test_FAD_v01.py to your working environment directory and the same for the example excel files.
+!!!!!!!!!!!!!!!!!! Open Test_FAD_v01.py and read the description !!!!!!!!!!!!!!
+
 This project calculates of a given dataset the spikes. The spike calculation is based on linear regression filter sliding over the dataset. 
 The windowsize and accuracy (read sensitivity) can be set, even as the begin and end array, which needs to be ignored.
 Since the anamolies are most of the time facts from the past and seldom only at the end of the dataset, the spike is calculated as the midpoint of the window. 
